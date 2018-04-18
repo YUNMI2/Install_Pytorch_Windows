@@ -18,17 +18,17 @@
 - 参考:[https://zhuanlan.zhihu.com/p/26871672](https://zhuanlan.zhihu.com/p/26871672)
 - conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/peterjc123/
 
-- # for CPU only packages
-- conda install pytorch-cpu
+- for CPU only packages
+-- conda install pytorch-cpu
 
-- # for Windows 10 and Windows Server 2016, CUDA 8
-- conda install pytorch
+- for Windows 10 and Windows Server 2016, CUDA 8
+-- conda install pytorch
 
-- # for Windows 10 and Windows Server 2016, CUDA 9
-- conda install pytorch cuda90
+- for Windows 10 and Windows Server 2016, CUDA 9
+-- conda install pytorch cuda90
 
-- # for Windows 7/8/8.1 and Windows Server 2008/2012, CUDA 8
-- conda install pytorch_legacy
+- for Windows 7/8/8.1 and Windows Server 2008/2012, CUDA 8
+-- conda install pytorch_legacy
 
 #### Error
 - import error:   from torch._C import * ImportError: DLL load failed: The specified module could not be found.
